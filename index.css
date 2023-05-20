@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.Titulo{
+    color: cornflowerblue;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    height: 780px;
+    background: #287fb8b8; 
+    background: -webkit-linear-gradient(to right, hsl(0, 0%, 100%), hsla(196, 93%, 70%, 0.403), hsla(204, 64%, 44%, 0.602)), url(../Turismo/paisajes.jpg);  
+    background: linear-gradient(to right, hsl(0, 0%, 100%), hsla(196, 93%, 70%, 0.403), hsla(204, 64%, 44%, 0.602)), url(../Turismo/paisajes.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    nav{
+        text-align: right;
+        padding: 30px 50px 0 0;
+
+    }
+
+    nav > a{
+        color: #ffff;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right:  10px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+       
+    }
+
+    .wave{
+        position:absolute;
+        bottom: 0;
+        width: 100%;
+    }
+.Gal{
+    background-color: hsla(0, 0%, 66%, 0.681);
+}
+    .Galeria{
+        margin: 10px 10px;
+        box-shadow: 0 10px 8px 0 #287fb8b8; 
+        width: 200px;
+        display: inline-block;
+        align-items: center;
+       
+    }
+ 
+        
+    .Galeria:hover{
+        line-height: 1px solid rgb(4, 19, 63);
+        transform: rotate(-3deg);
+        
+    }
+    .img, .Imagenes:hover .cursor{
+        display: flex;
+    }
+    .cursor, .Imagenes:hover .img{
+        display: none;
+    }
+    .footercontact{
+   
+        background-color: rgb(92, 174, 255);
+        height: 300px;
+        width: 300px;
+        align-items: center;
+    }    
